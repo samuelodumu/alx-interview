@@ -2,7 +2,7 @@
 """contains `generate_pascal_triangle` function"""
 
 
-def generate_pascal_triangle(n):
+def pascal_triangle(n):
     """algorithm for pascal's triangle"""
     triangle = []
     for i in range(n):
