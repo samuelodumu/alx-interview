@@ -1,39 +1,24 @@
-# 0x00. Pascal's Triangle 
-Algorithm of a Pascal's triangle
+## 0x08. Making Change
 
-To be able to write this function/algorithm, you need a good understanding of:
+For the “0x08. Making Change” project, you will tackle a classic problem from the domain of dynamic programming and greedy algorithms: the coin change problem. The objective is to find the minimum number of coins required to make up a given total amount, given a list of coin denominations. This project challenges you to apply your understanding of algorithms to devise a solution that is not only correct but also efficient. Below are the key concepts and resources necessary to complete this project successfully.
 
-1. Lists and List Comprehensions:
-- Understand how to create, access, modify, and iterate over lists.
-- Utilize list comprehensions for more concise and readable code, especially for generating rows of Pascal’s Triangle.
+Concepts Needed:
+1. Greedy Algorithms:
+- Understanding how greedy algorithms work and why they are suitable for the coin change problem.
+- Recognizing the limitations of greedy algorithms and scenarios where they might not provide the optimal solution.
 
-2. Functions:
-- Know how to define and call functions.
-- Pass parameters and return values, particularly how to return a list of lists representing Pascal’s Triangle.
+2. Dynamic Programming:
+- Basic principles of dynamic programming as a method to solve optimization problems.
+- The concept of overlapping subproblems and optimal substructure in the context of the coin change problem.
 
-3. Loops:
-- Use for and while loops to iterate through sequences.
-- Nested loops may be necessary for generating each row and calculating the values of Pascal’s Triangle.
+3. Algorithmic Complexity:
+- Analyzing the time and space complexity of algorithms.
+- Striving for solutions with lower complexity to meet runtime constraints.
 
-4. Conditional Statements:
-- Apply if, elif, and else conditions to implement logic based on the position within Pascal’s Triangle (e.g., the edges of the triangle always being 1).
+4. Problem-Solving Strategies:
+- Breaking down the problem into smaller, manageable sub-problems.
+- Iterative vs recursive approaches to dynamic programming.
 
-5. Recursion (Optional):
-- While not strictly necessary, understanding recursion can provide an alternative approach to generating Pascal’s Triangle.
-Recognize base cases and recursive cases for a function that generates the triangle’s rows.
-
-6. Arithmetic Operations:
-- Perform addition, a fundamental operation for calculating each element of Pascal’s Triangle as the sum of the two elements directly above it.
-
-7. Indexing and Slicing:
-- Access elements and slices of lists, crucial for identifying and summing the correct elements when constructing each row of the triangle.
-
-8. Memory Management:
-- Be mindful of how lists are stored and copied, especially when creating new rows based on the values of the previous row.
-
-9. Error and Exception Handling (Optional):
-- Use try-except blocks as needed to handle potential errors, such as invalid input types or values.
-
-10. Efficiency and Optimization:
-- Consider the time and space complexity of different approaches to generating Pascal’s Triangle.
-Evaluate and apply optimizations to improve the performance of the solution.
+5. Python Programming:
+- Manipulating lists and using list comprehensions.
+- Implementing functions with efficient looping and conditional statements.
