@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+""" contains makeChange function"""
 
-# function to find the minimum number of coins required to make
-# up a given total amount, given a list of coin denominations
 
 def makeChange(coins, total):
+    """returns the minimum number of coins to make change"""
     # create a list to store the minimum number of coins required
     # for each amount from 0 to the given total amount
     dp = [float('inf')] * (total + 1)
