@@ -4,8 +4,6 @@
 # up a given total amount, given a list of coin denominations
 
 def makeChange(coins, total):
-    if total <= 0:
-        return 0
     # create a list to store the minimum number of coins required
     # for each amount from 0 to the given total amount
     dp = [float('inf')] * (total + 1)
