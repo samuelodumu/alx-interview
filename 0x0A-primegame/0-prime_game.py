@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""contains `isWinner` function"""
 
 
 def isWinner(x, nums):
+    """determines who the winner of each game is"""
     def sieve_of_eratosthenes(n):
         # Sieve of Eratosthenes to find all primes up to n
         primes = [True] * (n + 1)
