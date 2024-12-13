@@ -12,6 +12,8 @@ def isWinner(x, nums):
         return None
     if len(nums) == 0:
         return None
+    if any(type(x) != int for x in nums):
+        return None
 
     def sieve_of_eratosthenes(n):
         # Sieve of Eratosthenes to find all primes up to n
