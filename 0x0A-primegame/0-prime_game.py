@@ -17,6 +17,15 @@ def isWinner(x, nums):
     maria_wins = 0
     ben_wins = 0
 
+    if not x:
+        return None
+    if not nums:
+        return None
+    if x < 1:
+        return None
+    if len(nums) == 0:
+        return None
+
     # Loop through each game
     for n in nums:
         primes = sieve_of_eratosthenes(n)
