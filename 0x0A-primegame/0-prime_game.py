@@ -4,6 +4,15 @@
 
 def isWinner(x, nums):
     """determines who the winner of each game is"""
+    if not x:
+        return None
+    if not nums:
+        return None
+    if x < 1:
+        return None
+    if len(nums) == 0:
+        return None
+
     def sieve_of_eratosthenes(n):
         # Sieve of Eratosthenes to find all primes up to n
         primes = [True] * (n + 1)
@@ -16,15 +25,6 @@ def isWinner(x, nums):
 
     maria_wins = 0
     ben_wins = 0
-
-    if not x:
-        return None
-    if not nums:
-        return None
-    if x < 1:
-        return None
-    if len(nums) == 0:
-        return None
 
     # Loop through each game
     for n in nums:
